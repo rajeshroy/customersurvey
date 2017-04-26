@@ -1,0 +1,66 @@
+[{
+	"Mandt": "001",
+	"QuestionId": "1",
+	"QuestionText": "WHAT IS THE RATING YOU WILL GIVE TO YOUR TEAM BASED ON THEIR PERFORMANCE?",
+	"__metadata": {
+		"uri": "QuestionDetSet(Mandt='Mandt%201',QuestionId='QuestionId%201')",
+		"type": "ZCUST_FEEDBACK_SRV.QuestionDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "QuestionDetSet(Mandt='Mandt%201',QuestionId='QuestionId%201')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "001",
+	"QuestionId": " 2",
+	"QuestionText": "IS THE TEAM COMPLETING THE GIVEN TASK ON  TIME?",
+	"__metadata": {
+		"uri": "QuestionDetSet(Mandt='Mandt%202',QuestionId='QuestionId%202')",
+		"type": "ZCUST_FEEDBACK_SRV.QuestionDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "QuestionDetSet(Mandt='Mandt%202',QuestionId='QuestionId%202')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "001",
+	"QuestionId": " 3",
+	"QuestionText": "IS THE TEAM OPEN TO LEARN NEW TECHNOLOGIES?",
+	"__metadata": {
+		"uri": "QuestionDetSet(Mandt='Mandt%203',QuestionId='QuestionId%203')",
+		"type": "ZCUST_FEEDBACK_SRV.QuestionDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "QuestionDetSet(Mandt='Mandt%203',QuestionId='QuestionId%203')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "001",
+	"QuestionId": "4",
+	"QuestionText": "IS THE TEAM READY TO TAKE UP CHALLANGES?",
+	"__metadata": {
+		"uri": "QuestionDetSet(Mandt='Mandt%204',QuestionId='QuestionId%204')",
+		"type": "ZCUST_FEEDBACK_SRV.QuestionDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "QuestionDetSet(Mandt='Mandt%204',QuestionId='QuestionId%204')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "001",
+	"QuestionId": " 5",
+	"QuestionText": "IS THE TEAM ABLE TO FINISH TASK ON TIME?",
+	"__metadata": {
+		"uri": "QuestionDetSet(Mandt='Mandt%205',QuestionId='QuestionId%205')",
+		"type": "ZCUST_FEEDBACK_SRV.QuestionDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "QuestionDetSet(Mandt='Mandt%205',QuestionId='QuestionId%205')/CustFeedbackSet"
+		}
+	}
+}]

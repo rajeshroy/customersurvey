@@ -12,6 +12,16 @@
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.40.12"
+		},
+				"dataSources": {
+			"employeeRemote": {
+				"uri": "/here/goes/your/serviceUrl/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri" : "localService/metadata.xml"
+				}
+			}
 		}
 	},
 
@@ -64,6 +74,9 @@
 				"settings": {
 					"bundleName": "sap.cust.surveycustomersurvey1.i18n.i18n"
 				}
+			},
+			"": {
+				"dataSource": "employeeRemote"
 			}
 		},
 		"resources": {
