@@ -12,13 +12,14 @@
 		class="sapUiContentPadding"
 		width="100%">
 		<l:content>
-			<Label text="{i18n>Project}" labelFor="projectInput"/>
+			<Label text="{i18n>Project}" labelFor="projectInput" required ="true"/>
 			<Input  width="40em"
 				id="projectInput"
 				type="Text"
 				placeholder="Enter Project Id ..."
 				showSuggestion="true"
-				suggestionItems="{/ProjectId}" >
+				startSuggestion="3"
+				suggestionItems="{/ProjectDetSet}" >
 				<suggestionItems>
 					<core:Item text="{ProjectId}" />
 				</suggestionItems>
@@ -43,14 +44,14 @@
 						<items>
 							<ColumnListItem>
 								<cells>
-									<ObjectIdentifier title="{QuestionId}" text="{QuestionText}"/>
-									<RatingIndicator maxValue="5" class="sapUiSmallMarginBottom" value=" "/>
+									<ObjectIdentifier  text="{QuestionId}. {QuestionText}"/>
+									<RatingIndicator maxValue="5" class="sapUiSmallMarginBottom" value=" " change="onRatingChange"/>
 								</cells>
 							</ColumnListItem>
 						</items>
 					</Table>
-					<form:SimpleForm editable="true" id="formId">
-						<Label text="{i18n>Description}"/>
+					<form:SimpleForm editable="true" visible = "false" id="formId">
+						<Label text="{i18n>Description}" required ="true"/>
 						<TextArea id="Descriptionid" value="{/Description}" valueLiveUpdate="{/ValueLiveUpdate}" liveChange="handleLiveChange"/>
 					   
 					</form:SimpleForm>
@@ -60,7 +61,7 @@
 				<footer>
 					<Toolbar>
 						<ToolbarSpacer/>
-						<Button text="{i18n>Save}" press="onSave" type="Accept" />
+						<Button id = "saveId" text="{i18n>Save}" press="onSave" enabled="false" type="Accept" />
 					</Toolbar>
 				</footer>
 			</Page>

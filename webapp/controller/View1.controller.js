@@ -17,15 +17,53 @@ sap.ui.define([
 		};
 		oModel.read("/QuestionDetSet", mParameter);*/
 		
+		
 	},
 /*	fnSuccessQuestionSet : function(oSuccessData){
 		this.getView().getModel("QuestionSet").setProperty("/", oSuccessData.results);
 	},*/
       onSave : function(){
       	
+      	//this.getView().byId("formId").setVisible(true);
+      	if(this.getView().byId("projectInput") === " ") {
+      		
+      	}
       	
+      },
+      
+      
+      onRatingChange : function(oEvent){
+      	
+      	/*if(oEvent.getParameter("value") < 4){
+      			this.getView().byId("formId").setVisible(true);
+      	}*/
+      	
+      	var i; var table = this.getView().byId("idQuestionTable");
+      	var tabLength = table.getItems().length;
+       var ratingArray = [];
+      
+      	for (i= 0 ; i < tabLength ; i++) {
+      	
+      		var rate  = table.getItems()[i].getCells()[1].getValue();
+      		ratingArray.push(rate);
+      		
+      	
+      	}
+      	
+      	for(var j = 0;j<ratingArray.length; j++){
+      		if(ratingArray[j] < 4){
+      				this.getView().byId("formId").setVisible(true);
+      				break;
+      		}
+      		else if(j === ratingArray.length-1){
+      			this.getView().byId("formId").setVisible(false);
+      			
+      		}
+      		this.getView().byId("saveId").setEnabled(true);
+      	}
       	
       	
       }
+      
 	});
 });

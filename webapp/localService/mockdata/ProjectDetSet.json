@@ -1,0 +1,201 @@
+[{
+	"Mandt": "Mandt 1",
+	"ProjectId": "ProjectId 1",
+	"ProjectName": "ProjectName 1",
+	"CustomerId": "Kunnr 1",
+	"Team": "Team 1",
+	"Division": "Division 1",
+	"ManagerId": "Personid 1",
+	"Validfrom": "/Date(973859384000)/",
+	"Validto": "/Date(1201868984000)/",
+	"Status": "Status 1",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%201',ProjectId='ProjectId%201')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%201',ProjectId='ProjectId%201')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 2",
+	"ProjectId": "ProjectId 2",
+	"ProjectName": "ProjectName 2",
+	"CustomerId": "Kunnr 2",
+	"Team": "Team 2",
+	"Division": "Division 2",
+	"ManagerId": "Personid 2",
+	"Validfrom": "/Date(1486038584000)/",
+	"Validto": "/Date(1181219384000)/",
+	"Status": "Status 2",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%202',ProjectId='ProjectId%202')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%202',ProjectId='ProjectId%202')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 3",
+	"ProjectId": "ProjectId 3",
+	"ProjectName": "ProjectName 3",
+	"CustomerId": "Kunnr 3",
+	"Team": "Team 3",
+	"Division": "Division 3",
+	"ManagerId": "Personid 3",
+	"Validfrom": "/Date(1365078584000)/",
+	"Validto": "/Date(1083241784000)/",
+	"Status": "Status 3",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%203',ProjectId='ProjectId%203')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%203',ProjectId='ProjectId%203')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 4",
+	"ProjectId": "ProjectId 4",
+	"ProjectName": "ProjectName 4",
+	"CustomerId": "Kunnr 4",
+	"Team": "Team 4",
+	"Division": "Division 4",
+	"ManagerId": "Personid 4",
+	"Validfrom": "/Date(1569673784000)/",
+	"Validto": "/Date(1343910584000)/",
+	"Status": "Status 4",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%204',ProjectId='ProjectId%204')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%204',ProjectId='ProjectId%204')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 5",
+	"ProjectId": "ProjectId 5",
+	"ProjectName": "ProjectName 5",
+	"CustomerId": "Kunnr 5",
+	"Team": "Team 5",
+	"Division": "Division 5",
+	"ManagerId": "Personid 5",
+	"Validfrom": "/Date(1007555384000)/",
+	"Validto": "/Date(1133440184000)/",
+	"Status": "Status 5",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%205',ProjectId='ProjectId%205')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%205',ProjectId='ProjectId%205')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 6",
+	"ProjectId": "ProjectId 6",
+	"ProjectName": "ProjectName 6",
+	"CustomerId": "Kunnr 6",
+	"Team": "Team 6",
+	"Division": "Division 6",
+	"ManagerId": "Personid 6",
+	"Validfrom": "/Date(1330432184000)/",
+	"Validto": "/Date(1186316984000)/",
+	"Status": "Status 6",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%206',ProjectId='ProjectId%206')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%206',ProjectId='ProjectId%206')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 7",
+	"ProjectId": "ProjectId 7",
+	"ProjectName": "ProjectName 7",
+	"CustomerId": "Kunnr 7",
+	"Team": "Team 7",
+	"Division": "Division 7",
+	"ManagerId": "Personid 7",
+	"Validfrom": "/Date(1108470584000)/",
+	"Validto": "/Date(1309264184000)/",
+	"Status": "Status 7",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%207',ProjectId='ProjectId%207')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%207',ProjectId='ProjectId%207')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 8",
+	"ProjectId": "ProjectId 8",
+	"ProjectName": "ProjectName 8",
+	"CustomerId": "Kunnr 8",
+	"Team": "Team 8",
+	"Division": "Division 8",
+	"ManagerId": "Personid 8",
+	"Validfrom": "/Date(1455971384000)/",
+	"Validto": "/Date(1531571384000)/",
+	"Status": "Status 8",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%208',ProjectId='ProjectId%208')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%208',ProjectId='ProjectId%208')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 9",
+	"ProjectId": "ProjectId 9",
+	"ProjectName": "ProjectName 9",
+	"CustomerId": "Kunnr 9",
+	"Team": "Team 9",
+	"Division": "Division 9",
+	"ManagerId": "Personid 9",
+	"Validfrom": "/Date(1223728184000)/",
+	"Validto": "/Date(1545395384000)/",
+	"Status": "Status 9",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%209',ProjectId='ProjectId%209')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%209',ProjectId='ProjectId%209')/CustFeedbackSet"
+		}
+	}
+}, {
+	"Mandt": "Mandt 10",
+	"ProjectId": "ProjectId 10",
+	"ProjectName": "ProjectName 10",
+	"CustomerId": "Kunnr 10",
+	"Team": "Team 10",
+	"Division": "Division 10",
+	"ManagerId": "Personid 10",
+	"Validfrom": "/Date(1472473784000)/",
+	"Validto": "/Date(1008937784000)/",
+	"Status": "Status 10",
+	"__metadata": {
+		"uri": "ProjectDetSet(Mandt='Mandt%2010',ProjectId='ProjectId%2010')",
+		"type": "ZCUST_FEEDBACK_SRV.ProjectDet"
+	},
+	"CustFeedbackSet": {
+		"__deferred": {
+			"uri": "ProjectDetSet(Mandt='Mandt%2010',ProjectId='ProjectId%2010')/CustFeedbackSet"
+		}
+	}
+}]
