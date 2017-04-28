@@ -26,7 +26,7 @@
 			</Input>
 		</l:content>
 	</l:VerticalLayout>
-					<Table id="idQuestionTable" inset="false" items="{/QuestionDetSet}" >
+					<Table id="idQuestionTable" inset="false" items="{QuestionSet>/}" >
 						<headerToolbar >
 							<Toolbar>
 								<Title text="{i18n>Txt}" level="H2"/>
@@ -44,15 +44,15 @@
 						<items>
 							<ColumnListItem>
 								<cells>
-									<ObjectIdentifier  text="{QuestionId}. {QuestionText}"/>
-									<RatingIndicator maxValue="5" class="sapUiSmallMarginBottom" value=" " change="onRatingChange"/>
+									<ObjectIdentifier  text="{QuestionSet>QuestionId}. {QuestionSet>QuestionText}"/>
+									<RatingIndicator maxValue="5" class="sapUiSmallMarginBottom"  change="onRatingChange"/>
 								</cells>
 							</ColumnListItem>
 						</items>
 					</Table>
 					<form:SimpleForm editable="true" visible = "false" id="formId">
 						<Label text="{i18n>Description}" required ="true"/>
-						<TextArea id="Descriptionid" value="{/Description}" valueLiveUpdate="{/ValueLiveUpdate}" liveChange="handleLiveChange"/>
+						<TextArea id="Descriptionid" liveChange="handleLiveChange"/>
 					   
 					</form:SimpleForm>
 					
@@ -61,7 +61,7 @@
 				<footer>
 					<Toolbar>
 						<ToolbarSpacer/>
-						<Button id = "saveId" text="{i18n>Save}" press="onSave" enabled="false" type="Accept" />
+						<Button id = "saveId" text="{i18n>Save}" press="onSave" enabled="true" type="Accept" />
 					</Toolbar>
 				</footer>
 			</Page>
