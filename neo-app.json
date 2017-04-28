@@ -20,6 +20,14 @@
         "version": "1.44.12"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/destinations/ZSTUDENT_SRV_0001",
+      "target": {
+        "type": "destination",
+        "name": "ZSTUDENT_SRV_0001"
+      },
+      "description": "Northwind OData Service"
     }
   ],
   "sendWelcomeFileRedirect": true
