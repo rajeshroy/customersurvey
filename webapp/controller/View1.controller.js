@@ -48,6 +48,8 @@ sap.ui.define([
 			var aModelData = oSuccessData.results;
 			for (var i = 0; i < aModelData.length; i++) {
 				aModelData[i].FeedbackRating = 0;
+				delete aModelData[i].__metadata;
+				delete aModelData[i].CustFeedbackSet;
 			}
 			return aModelData;
 		},
@@ -92,6 +94,11 @@ sap.ui.define([
 		 	var oCreateData = {}, oView = this.getView(),
 		 	sProject = oView.byId("projectInput").getValue(),
 		 	sDescription = oView.byId("Descriptionid").getValue();
+		 	for (var i = 0; i < aModelData.length; i++) {
+		 				aModelData[i].FeedbackDate = '';
+		 				aModelData[i].Projectid = sProject;
+				delete aModelData[i].QuestionText;
+			}
 			oCreateData.Projectid = sProject;
 			oCreateData.FeedbackDesc = sDescription;
 			oCreateData.CustFeedbackSet = aModelData;
